@@ -21,7 +21,6 @@ public class ScientificCalculator {
      }
 
      public int modulo_double(double dividend, double divisor) {
-        return type should be integer
          return dividend % divisor;
      }
 }
