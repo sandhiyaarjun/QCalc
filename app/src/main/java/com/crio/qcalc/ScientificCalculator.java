@@ -1,4 +1,6 @@
  package com.crio.qcalc;
+
+
 public class ScientificCalculator {
 
     
@@ -42,15 +44,19 @@ public class ScientificCalculator {
      }
 
 
-     public static  double  modulo_double (int dividend, int divisor) {
+     public static  double  modulo_double(double dividend, double divisor) {
 
-         return dividend / divisor;
+         return dividend % divisor;
 
      }
+
+
+   
+    }
 
      
 
 
-}
+
 
 

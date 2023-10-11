@@ -15,9 +15,10 @@ public class App {
 
     ScientificCalculator calc = new ScientificCalculator();
 
-    int result= calc.modulo(5, 2);
+    int result= calc.modulo( 5, 2);
 
     System.out.println("modulo =" + result);
+    
 
 }
 
