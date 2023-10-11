@@ -9,6 +9,15 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        StandardCalculator calc = new StandardCalculator();
+        calc.add(8,3);
+        System.out.println(calc.getResult());
+        calc.subtract(12,2);
+        System.out.println(calc.getResult());
+        calc.multiply(5,3);
+        System.out.println(calc.getResult());
+        calc.divide(16,2);
+        System.out.println(calc.getResult());
+                System.out.println(new App().getGreeting());
     }
 }
