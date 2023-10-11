@@ -8,19 +8,21 @@ public class App {
         return "Hello World!";
     }
 
-    public static void main(String[] args) {
-         System.out.println(new App().getGreeting());
+   
+ public static void main(String[] args) {
 
-          ScientificCalculator calc = new ScientificCalculator();
+    System.out.println(new App().getGreeting());
+
+    ScientificCalculator calc = new ScientificCalculator();
 
     int result= calc.modulo(5, 2);
 
     System.out.println("modulo =" + result);
 
-   
+}
 
 }
 
-    }
+    
 
 

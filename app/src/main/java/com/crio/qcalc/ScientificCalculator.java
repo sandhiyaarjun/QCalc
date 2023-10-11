@@ -1,26 +1,56 @@
  package com.crio.qcalc;
 public class ScientificCalculator {
 
-    public double squareOf(double num) {
+    
+
+
+
+
+
+    public static double squareOf(double num) {
+
         return num * num;
+
     }
 
-    public double cubeOf(double num) {
+
+    public static double cubeOf(double num) {
+
         return num * num * num;
+
     }
-     public double powerOf(double base) {
-         return Math.pow(base, exponent);
+
+     public static double powerOf(double base, double exponent) {
+
+         
+        return Math.pow(base, exponent);
+
      }
 
-     public double squareRoot(double num) {
+
+     public static double squareRoot(double num) {
+
          return Math.sqrt(num);
+
      }
 
-     public int modulo(int dividend, int divisor) {
-         return dividend / divisor;
-     }
 
-     public int modulo_double(double dividend, double divisor) {
+     public static int modulo(int dividend, int divisor) {
+
          return dividend % divisor;
+
      }
+
+
+     public static  double  modulo_double (int dividend, int divisor) {
+
+         return dividend / divisor;
+
+     }
+
+     
+
+
 }
+
+
